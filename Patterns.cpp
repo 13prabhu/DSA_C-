@@ -554,31 +554,31 @@ int main()
 //   **
 //    *
 
-int n;
-cout<<"Enter a number";
-cin>>n;
-int i=n;
+// int n;
+// cout<<"Enter a number";
+// cin>>n;
+// int i=n;
 
-while (i>0)
-{
-  int space=n-i;
+// while (i>0)
+// {
+//   int space=n-i;
 
-  while (space>0)
-  {
-    cout<<" ";
-    space--;
-  }
-int j=1;
-  while (j<=i)
-  {
-    cout<<"*";
-    j++;
-  }
-cout<<endl;
+//   while (space>0)
+//   {
+//     cout<<" ";
+//     space--;
+//   }
+// int j=1;
+//   while (j<=i)
+//   {
+//     cout<<"*";
+//     j++;
+//   }
+// cout<<endl;
 
-  i--;
+//   i--;
 
-}
+// }
 
 
 }
