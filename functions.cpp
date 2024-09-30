@@ -160,9 +160,7 @@ int faibonacciSeries(int n){
          int nextNumber=a+b;
          cout<<nextNumber<<' ';
           a=b;
-        b=nextNumber;
-       
-
+        b=nextNumber;      
     }
     
 }
@@ -171,6 +169,4 @@ int main(){
     int n;
     cin>>n;
  faibonacciSeries(n);
-    
-
 }
